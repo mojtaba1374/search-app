@@ -1,0 +1,38 @@
+.auth {
+  width: 85%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .auth {
+    width: 500px;
+  }
+}
+
+@media (min-width: 768px) {
+  .auth {
+    width: 500px;
+  }
+}
+
+.form-control label {
+  padding-bottom: 0;
+}
+
+.form-control input,
+.form-control select {
+  display: block;
+  width: 100%;
+  font: inherit;
+  padding: 0.1rem 0.25rem;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 1.25rem;
+}
+
+.form-control input:focus,
+.form-control select:focus {
+  outline: none;
+  border-bottom-color: #ff2058;
+}

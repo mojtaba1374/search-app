@@ -1,0 +1,12 @@
+.Search {
+    width: 85%;
+    height: 20%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+@media (min-width: 576px) {
+    .Search {
+      width: 500px;
+    }
+}

@@ -1,0 +1,39 @@
+.items-list {
+    width: 30rem;
+    max-width: 80%;
+    margin: auto;
+}
+  
+.items-list h2 {
+    border-bottom: 3px solid #ccc;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+  
+.items-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.items-list li {
+    position: relative;
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.26);
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.2s ease-out;
+}
+
+.items-list li:hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
+  
+.items-list li span:nth-child(2) {
+    margin-right: 30px;
+    text-decoration: underline;
+}
+
+  
